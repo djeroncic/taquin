@@ -7,4 +7,5 @@ class User < ApplicationRecord
 
   has_many :categories
   has_many :spendings, through: :categories
+  has_many :month_budgets
 end
